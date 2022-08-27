@@ -1,0 +1,53 @@
+body,
+h1{
+    margin:0;
+
+}
+.red{
+    width: 200px;
+    height: 200px;
+    background: red;
+}
+
+.blue{
+    width: 200px;
+    height: 200px;
+    background:blue;
+}
+
+.green{
+    width: 200px;
+    height: 200px;
+    background: green;
+}
+
+.container{
+    border: 3px solid red;
+    padding: 10px;
+    display:flex;
+    flex-direction: row;
+
+}
+
+.textbox{
+    background-color: yellow;
+    width:50%;
+    height:50%;
+}
+
+.navbar{
+    background-color: grey;
+    width:100vw;
+    height: 50px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leftNav{
+    display:flex;
+    flex-direction: row;
+    height:100%;
+    align-items: center;
+    gap:20px;
+}
